@@ -1,3 +1,4 @@
+print("APP STARTED")
 import streamlit as st
 import torch
 import numpy as np
