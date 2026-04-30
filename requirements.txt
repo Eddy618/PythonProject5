@@ -1,4 +1,9 @@
-streamlit==1.32.0
-torch>=2.9.0
-transformers>=4.40.0
+gradio
+torch
+transformers
+tensorflow
+pillow
+gdown
+requests
+beautifulsoup4
 numpy
