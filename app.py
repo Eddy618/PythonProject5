@@ -111,4 +111,4 @@ demo = gr.Interface(
     description="Text + Image + Live URL Analysis (BERT + CNN)"
 )
 
-demo.launch()
+demo.launch(server_name="0.0.0.0", server_port=7860)
