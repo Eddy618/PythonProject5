@@ -42,12 +42,30 @@ scikit-learn
 ├── image_model.h5       # Pretrained image model
 ├── utils/               # Helper functions (if a
 
-git clone 
+git clone https://github.com/Eddy618/PythonProject5
 cd PythonProject5
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-python app.py
+
+Live Demo:
+https://real-fake-news-detector.up.railway.app/
+
+
+MY PROJECT ROADMAP 
+🟢 PHASE 1: Core Project 
+🎯 Goal: Build a working ML demo
+
+✔ Set up project structure
+✔ Build app.py (Gradio interface)
+✔ Create prediction function
+✔ Test locally
+
+🟡 PHASE 2: API Integration
+🎯 Goal: Make your project look professional (backend included)
+✔ Understand POST requests
+✔ Use /run/predict (Gradio API)
+✔ Test with Postman or Python requests
 
 ny)
 └── README.md            # Project documentation
