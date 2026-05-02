@@ -40,5 +40,14 @@ scikit-learn
 ├── requirements.txt     # Dependencies
 ├── Procfile             # Railway start command
 ├── image_model.h5       # Pretrained image model
-├── utils/               # Helper functions (if any)
+├── utils/               # Helper functions (if a
+
+git clone 
+cd PythonProject5
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
+
+ny)
 └── README.md            # Project documentation
