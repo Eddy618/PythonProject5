@@ -3,15 +3,12 @@
 A powerful AI-powered web application that detects fake news using both text and image analysis. This project combines Natural Language Processing (NLP) and Computer Vision to provide more accurate and robust predictions.
 
 Problem Statement
-
 Many businesses struggle to leverage machine learning models in real-time applications due to lack of accessible APIs and deployment pipelines.
 
 This project solves that by providing:
 
 A deployable ML inference API
-
 Clean architecture for scalability
-
 Easy integration for frontend applications
 
 🚀 Features
@@ -51,6 +48,22 @@ pip install -r requirements.txt
 Live Demo:
 https://real-fake-news-detector.up.railway.app/
 
+Pytest:
+Testing (Pytest)
+This project uses pytest for unit testing to ensure the reliability of the fake news detection logic.
+
+📂 Test Structure
+tests/
+└── test_app.py
+Run Tests
+
+To run all tests:
+pytest -v
+
+✅ Example Output
+collected 2 items
+tests/test_app.py::test_fake_news PASSED
+tests/test_app.py::test_real_news PASSED
 
 MY PROJECT ROADMAP 
 🟢 PHASE 1: Core Project 
