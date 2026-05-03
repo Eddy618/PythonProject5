@@ -75,10 +75,30 @@ MY PROJECT ROADMAP
 ✔ Test locally
 
 🟡 PHASE 2: API Integration
-🎯 Goal: Make your project look professional (backend included)
+🎯 Goal: Make my project look professional (backend included)
 ✔ Understand POST requests
 ✔ Use /run/predict (Gradio API)
 ✔ Test with Postman or Python requests
+
+🔵 PHASE 3: Testing (Quality Control)
+🎯 Goal: Prove my system works properly
+
+✔ Install pytest
+✔ Write test cases:
+
+Fake news input → Fake
+Real news input → Real
+
+🟣 PHASE 4: Deployment (LIVE DEMO)
+🎯 Goal: Make it accessible online
+
+✔ Use:
+Gradio
+
+Output:
+Public link
+Live demo accessible anywhere
+
 
 ny)
 └── README.md            # Project documentation
